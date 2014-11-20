@@ -1,0 +1,72 @@
+body{
+	font-family: sans-serif;
+
+}
+
+
+.gallery-body{
+	position: relative;
+    margin: 0 auto 25px;
+}
+
+
+.box{
+	/*border: 2px solid #fff;*/
+	position: absolute;
+    background-color: #618e8b;
+}
+
+/* Groessen der Elemente 
+small: ausgangswerte
+mid: width = 2 * ausgangswert; height = ausgangswert
+big: width, height = 2 * ausgangswert
+*/
+.size0{
+	width: 65px;
+	height: 50px;
+}
+.size1{
+	width: 130px;
+	height: 50px;
+}
+.size2{
+	width: 130px;
+	height: 100px;
+}
+.size3{
+	width: 260px;
+	height: 100px;
+}
+.size4{
+	width: 260px;
+	height: 200px;
+}
+.size5{
+	width: 520px;
+	height: 200px;
+}
+
+.gallery-body img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.text{
+	padding: 10px;	
+}
+
+.text h2{
+	margin: 0 0 10px 0;
+}
+
+@media(max-width: 1200px){
+    body{
+        
+    }
+    
+    #gallery{
+        width:600px;
+    }
+}
+
