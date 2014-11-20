@@ -1,0 +1,33 @@
+
+/*Startups fuer Fortuna*/
+
+.gallery-body .m-supporter{
+    padding: 0;
+}
+
+.gallery-body .size0 .front{
+	width: 65px;
+	height: 50px;
+}
+.gallery-body .size1 .front{
+	width: 130px;
+	height: 50px;
+} 
+.gallery-body .size2 .front{
+	width: 130px;
+	height: 100px;
+}
+.gallery-body .size3 .front{
+	width: 260px;
+	height: 100px;
+}
+.gallery-body .size4 .front{
+	width: 260px;
+	height: 200px;
+}
+
+.gallery-body .size5 .front{
+   	width: 520px;
+	height: 200px;
+}
+

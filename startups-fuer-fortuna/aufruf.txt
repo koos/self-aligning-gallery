@@ -1,0 +1,11 @@
+<script> 
+size1 = $.merge($('.amount-50').children() , $.merge($('.amount-25').children(), $.merge($('.amount-10').children(), $.merge($('.amount-5').children(), $('.amount-1').children()))));
+size2 = $('.amount-100').children();
+size3 = $('.amount-250').children();
+size4 = $('.amount-500').children();
+size5 = $('.amount-2000').children();
+var elemente = [[], size1, size2, size3, size4, size5];
+var fixed = [5, 5, 4, 3];
+var config = ['#supporters', 65, 50, 0, 16, true];
+gallery(elemente, config, fixed);
+</script>
