@@ -11,8 +11,8 @@ Unterstüzte Version: 1.11.1
 ####Einbindung der Dateien:
 CSS und JS Dateien der Galerie liegen im Beispiel im Unterordner sag
 ```html
-<link rel="stylesheet" href="sag/screen.css" type="text/css">
-<script src="sag/script.js"></script>
+<link rel="stylesheet" href="sag/gallery.css" type="text/css">
+<script src="sag/gallery.js"></script>
 ```
 
 ####Aufruf der Galerie:
